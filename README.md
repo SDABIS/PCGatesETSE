@@ -10,10 +10,10 @@ La aplicacion estaba pensada como una aplicacion que se encontraria en la propia
 La base de datos tendra de nombre **PcGates**, donde las ceredenciales aparecen en el archivo _**baseDatos.properties**_, en la carpeta _**PcGates/**_. El gestor utilizado sera **PostgreSQL** y la conexion se realiza empleando **JDBC**.
 
 ## ¿Que tablas se utilizan?
-En la base de datos, se crearan multiples tablas para permitir el desarrollo adecuado de la aplicacion. Todas las tablas empleadas aparecen en el archivo de creacion **CreacionTablas.sql**, donde los datos para estas estan en **DatosTiendaInfor.sql**. De manera general, habra una tabla para clientes y otra para empleados. Tambien, para los equipos que creen los usuarios y los propios que venda la tienda, asi como componentes y una para los equipos que deben ser reparados y otra para los que ya lo han sido.
+En la base de datos, se crearan multiples tablas para permitir el desarrollo adecuado de la aplicacion. Todas las tablas empleadas aparecen en el archivo de creacion _**CreacionTablas.sql**_, donde los datos para estas estan en _**DatosTiendaInfor.sql**_. De manera general, habra una tabla para clientes y otra para empleados. Tambien, para los equipos que creen los usuarios y los propios que venda la tienda, asi como componentes y una para los equipos que deben ser reparados y otra para los que ya lo han sido.
 
 ## ¿Como se accede a la tienda?
-Para acceder a la tienda, es necesario que el usuario este dado de alta en la base de datos en la tabla correspondiente. El acceso a la aplicacion se realiza mediante las credenciales **ID** y **Clave**, donde el ID se tratará del DNI del usuario. Este usuario podrá seleccionar cual es su rol en la aplicacion (cliente, asistente, reparador o jefe). 
+Para acceder a la tienda, es necesario que el usuario este dado de alta en la base de datos en la tabla correspondiente. El acceso a la aplicacion se realiza mediante las credenciales **ID** y **Clave**, donde el ID se tratara del DNI del usuario. Este usuario podrá seleccionar cual es su rol en la aplicacion (cliente, asistente, reparador o jefe). 
 
 Para corroborar que este se trata de un usuario correcto, se corroborara chequeando sobre la tabla de la base de datos correspondiente si este usuario existe, es decir, si ha introducido unas credenciales y un rol correctos.
 
