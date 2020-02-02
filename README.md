@@ -35,4 +35,4 @@ Resaltar que la aplicacion cuenta con interfaz grafica.
 ## Autores
 * [Francisco Javier Saa Besteiro](https://github.com/franjsb1903)
 * Miguel Ventoso Fernandez
-* David Soler Garcia
+* [David Soler Garcia](https://github.com/SDABIS)
